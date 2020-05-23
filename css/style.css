@@ -1,0 +1,376 @@
+
+/*Author Info
+Name:Anas Ahmed;
+Mail :anasforhad@gmail.com;
+website:xyz.com;
+*/
+/*
+=====Index=====
+
+1.Guide
+2.Journey
+3.Hotels
+4.Travelers
+
+
+==========
+*/
+
+
+
+ */
+
+ /* global tags */
+
+ html{
+     font-size: 100%;
+ }
+
+ body{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+ }
+
+ h1{}
+
+ h2{}
+
+ p{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+ }
+
+
+a,
+a:hover{
+	 text-decoration:  none;
+
+}
+
+ul {
+     list-style: none;
+}
+ .no-padding {
+ 	 padding: 0 !important
+ }
+
+ .no-margin{
+ 	 margin: 0 !important
+ }
+
+ .normal-radius{
+ 	 border-radius: 5px;
+ }
+
+
+ /* norml css */
+
+.text-drk{
+     color: #3d4344;
+     font-weight: 600;
+}
+
+.text-white{
+	  color: #fff;
+      font-weight: 600;
+}
+
+/* nv sec */
+
+ .nav-head{
+     background-color: black;
+
+ }
+
+ a.navbar-brand.js-scroll-trigger {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+a.nav-link.js-scroll-trigger.active {
+    background: orange;
+    border-radius: 19px;
+    padding: 7px 22px;
+}
+
+a.nav-link.js-scroll-trigger {
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+/* guied sec */
+
+.hero {
+    background: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.hero-heading {
+    
+    padding-top: 200px;
+}
+.hero-heading h1 {
+    color: #fff;
+    font-size: 77px;
+    font-weight: bold;
+    margin-bottom: -15px;
+
+}
+.hero-heading h2 {
+    color: #dc6744;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.hero-heading p {
+    color: #3d4344;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: -16px;
+}
+
+.btn-cstm {
+    background-color: orange;
+    color: #3d4344;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 11px 26px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+.option{
+}
+
+.option-one img {
+    position: absolute;
+    width: 17%;
+    transform: translate(0%,-18%);
+}
+
+.option-two img {
+    position: absolute;
+    width: 18%;
+    left: 21%;
+    transform: translate(-5%,-17%);
+}
+.option-three img {
+    position: absolute;
+    width: 18%;
+    left: 43%;
+    transform: translate(-9%,-17%);
+}
+.option-four img {
+    position: absolute;
+    width: 18%;
+    left: 66%;
+    transform: translate(-20%,-17%);
+}
+.option-five img {
+    position: absolute;
+    width: 17%;
+    right: 0%;
+    transform: translate(0%,-18%);
+}
+
+/* hero sec end */
+
+/* journey sec strt */
+
+
+.journey {
+    background: #eceaea;
+}
+
+.journey-heading {
+    margin-top: 60px;
+}
+
+.journey-heading h2 {
+    font-weight: 600;
+}
+.form-control {
+    width: 58%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    border: none;
+    border-radius: 24px;
+    padding: 0px 19px;
+}
+
+
+
+/* hd enf */
+/*nv srt*/
+.journey-nav-one{
+
+    margin-left: 182px;
+}
+
+.journey-nav-one-link{
+  
+}
+
+.btn-cstm-one{
+    background-color: #bdc8d9;
+    color: #3d4344;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 3px 7px;
+    border-radius: 9px;
+    border: none;
+    float: left;
+    margin-left: 12px;
+    transition: 0.07s ease;
+}
+
+.btn-cstm-one:hover{
+    background-color: orange;
+   transform: scale(1.2);
+}
+
+.journey-nav-two {
+    margin-left: 52px;
+}
+
+/* nv end */
+/* cntnt strt */
+
+.journey-content {
+    margin: 42px 0px;
+    background: #fff;
+}
+
+.journey-content img{}
+
+.journey-content h2 {
+
+}
+
+.journey-content p{
+
+}
+
+.btn-cstm-two {
+    background-color: #eceaea;
+    color: #3d4344;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 7px 20px;
+    margin: 19px 112px;
+    border-radius: 23px;
+    border: none;
+    text-align: center;
+    transition: 0.07s ease;
+}
+
+.btn-cstm-two:hover{
+    background-color: orange;
+
+}
+
+/* hotel sec strt */
+
+.hotel{
+
+}
+
+.hotel-heading {
+    margin-bottom: 100px;
+}
+
+.hotel-content h2 {
+    font-size: 39px;
+    font-weight: 600;
+    color: orange;
+}
+.hotel-content p {
+    font-size: 18px;
+}
+
+
+.hotel-img{
+
+}
+.hotel-img img {
+    width: 100%;
+}
+.btn-cstm-three {
+    background-color: orange;
+    color: #3d4344;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 7px 20px;
+    margin-top: 20px;
+    border-radius: 23px;
+    border: none;
+    text-align: center;
+    transition: 0.07s ease;
+}
+
+/* hotel sec end */
+
+/* trvelrs sec strt */
+
+.travelers{
+   background: url(../img/img16.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.travelers-content{
+
+}
+
+.travelers-content h2 {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.travelers-content p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+.btn-cstm-four {
+    background-color:orange;
+    color: #3d4344;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 7px 20px;
+    margin: 19px 112px;
+    border-radius: 23px;
+    border: none;
+    text-align: center;
+    transition: 0.07s ease;
+}
+
+.linkup{
+    color: orange;
+}
+
+/* polind sec strt */
+
+.polind{
+    background: url(../img/logo5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.polind-content img{
+
+}
+
+.polind-content p{
+    font-size: 20px;
+}

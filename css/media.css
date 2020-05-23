@@ -1,0 +1,115 @@
+
+
+
+@media (min-width: 320px) and (max-width: 576px){
+	html{
+		font-size: 85%;
+	}
+
+	.hero-heading h1{
+		font-size: 50px !important
+	}
+
+	.hero-heading h2{
+		font-size: 50px !important
+	}
+
+	.journey-heading{
+		margin-bottom: 30px;
+		margin-top: -20px;
+	}
+
+	.journey-heading h2{
+		margin-top: -60px !important
+	}
+
+	.journey-nav-two ul{
+		margin-left: 65px;
+	}
+	.journey-content{
+		margin: 20px 0px !important
+	}
+	.journey-content img{
+		margin-left: 50px;
+	}
+
+	.btn-cstm-two {
+		margin-left: 165px !important
+	}
+	.hotel-heading h2{
+		font-size: 50px;
+	}
+	.hotel-content{
+		text-align: center;
+		margin-top: -80px;
+	}
+
+	.hotel-img img{
+		margin-top: 20px;
+	}
+
+	.travelers-content h2{
+		font-size: 40px !important
+	}
+
+
+
+}
+
+
+/* ipd or tb */
+
+@media (min-width: 576.01px) and (max-width: 1140px){
+    
+
+    html{
+		font-size: 95%;
+	}
+
+	.hero-heading h1{
+		font-size: 50px !important
+	}
+
+	.hero-heading h2{
+		font-size: 50px !important
+	}
+
+	.journey-heading{
+		margin-bottom: 30px;
+		margin-top: -20px;
+	}
+
+	.journey-heading h2{
+		margin-top: -60px !important
+	}
+
+	.journey-nav-two ul{
+		margin-left: 65px;
+	}
+	.journey-content{
+		margin: 20px 0px !important
+	}
+	.journey-content img{
+		margin-left: 80px;
+		
+	}
+
+	.btn-cstm-two {
+		margin-left: 190px !important
+	}
+	.hotel-heading h2{
+		font-size: 50px;
+	}
+	.hotel-content{
+		text-align: center;
+		margin-top: -80px;
+	}
+
+	.hotel-img img{
+		margin-top: 20px;
+	}
+
+	.travelers-content h2{
+		font-size: 40px !important
+	}
+
